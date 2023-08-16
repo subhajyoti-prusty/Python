@@ -1,0 +1,5 @@
+# Variables-> Which stores the value 
+'''_num1_,num,Num,Num1,'''
+# String-> set is a set of characters written in a single or double quotation
+name='Subha'
+print(name)
