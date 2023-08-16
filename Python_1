@@ -17,3 +17,10 @@ sub= num3-num4
 print(sub)
 print(type(sub))
 
+num5=30
+num6=38.6
+add=num5+num6
+# Concatenation-> combining the data
+print('The additin of num5 and num6 is :',add)
+print('The values are',add,"\n total")
+print(type(add))
