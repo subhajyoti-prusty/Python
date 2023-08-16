@@ -3,3 +3,9 @@
 # String-> set is a set of characters written in a single or double quotation
 name='Subha'
 print(name)
+
+#Int-> a number without a decimal value 
+num1=10
+num2=20
+print(num1+num2)
+print(type(num1))
