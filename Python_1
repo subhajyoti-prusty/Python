@@ -9,3 +9,11 @@ num1=10
 num2=20
 print(num1+num2)
 print(type(num1))
+
+#Float-> a number with decimal value
+num3=34.45
+num4=63.89
+sub= num3-num4
+print(sub)
+print(type(sub))
+
