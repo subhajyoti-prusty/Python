@@ -32,3 +32,20 @@ def calc ():
   num2=int(input("Enter the second number "))
   print("The sum of the two numbers is:",(num1+num2))
 calc()
+
+
+def hello():
+  print("Hello")
+  print("Good Morning")
+  
+hello()
+
+def a(name):
+  for i in range (10):
+    print("hello",name)
+a("tom")
+
+def a(name):
+  print("hello",name)
+a("tom")
+
