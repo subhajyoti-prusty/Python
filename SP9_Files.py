@@ -8,14 +8,27 @@ myfile=open("test.txt","r")   # r is for read method
 print(myfile.read())  # myfile.read-> its a build in method in python to read a file
 myfile.close()        #myfile.close() -> its use to close a file and it is neassary to close a file after use
 
-myfile=open("a.txt","w") # w is for write method
+myfile=open("test.txt","w") # w is for write method
 print(myfile.write("This is written by the programmer \n")) # myfile.write-> its a build in method in python to write in a file
 
-myfile=open("a.txt","r")
+myfile=open("test.txt","r")
 print(myfile.read())
 
-myfile=open("a.txt","a")    # a is for append method
+myfile=open("test.txt","a")    # a is for append method
 print(myfile.write("This is written by the user \n"))
 
-myfile=open("a.txt","r")
+myfile=open("test.txt","r")
 print(myfile.read())
+
+
+#Context manager-> it manages with the extra data like if some application is open it will close it for you
+
+mylines=["Good evening \n", "Welcome back to the class"]
+
+with open("test.txt", "w") as file:        # with -> it coloses the file after it is used so the it will not slow our system
+  file.writelines (mylines)
+  
+with open("test.txt","r") as file:
+  print(file.read())
+  
+  
